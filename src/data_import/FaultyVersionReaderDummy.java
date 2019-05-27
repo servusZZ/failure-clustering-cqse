@@ -34,13 +34,6 @@ public class FaultyVersionReaderDummy {
 		Test-L-Success  1   0   1   1   1   1   0   0   S
 		Test-M-Success  1   1   1   0   1   1   1   1   S
 		Test-N-Success  0   0   0   1   0   0   1   1   S
-		
-		Based on this faultyVersion I expect the following clusters:
-			Cluster-1 = {Test-A-Fail, Test-B-Fail}
-			Cluster-2 = {Test-C-Fail}
-			Cluster-3 = {Test-D-Fail}
-			Cluster-4 = {Test-E-Fail, Test-F-Fail}
-		Cluster-4 could be also splitted into 2 separate clusters.
 	 */
 	private static FaultyVersion createDummyVersion1() {
 		/**	zur Initialisierung der Coverage arrays in der TestCase Klasse wird auf
